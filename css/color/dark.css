@@ -1,0 +1,42 @@
+
+
+/*Color*/
+.text-primary, .btn-outline-primary, span{
+	color:#343a40!important;
+}
+.btn-outline-primary:hover, .btn-outline-primary:active{
+	color: #fff!important;
+}
+a{color:#343a40;}
+a:hover, a:active{color: #1f2225;}
+
+
+/*Background Color*/
+.bg-primary, .badge-primary, .btn-primary, .btn-outline-primary:active, .btn-outline-primary:hover{
+	background-color: #343a40!important;
+}
+.btn-primary:hover, .btn-primary:active{
+	background-color: #1f2225!important;
+}
+.download>div{
+	background-color: rgba(31,34,37,0.55);
+}
+
+
+/*Border Color*/
+h1, .border-primary, .btn-primary, .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary:hover{
+	border-color:#1f2225!important;
+}
+.btn-primary:hover, .btn-primary:active{
+	border-color: #1f2225!important;
+}
+
+
+/*Focus*/
+.btn-primary:focus, .btn-outline-primary:focus{
+	box-shadow: none;
+}
+input:focus, textarea:focus, button:focus{
+	    box-shadow: 0 0rem 0.25rem rgba(31,34,37,0.8)!important;
+	    border-color:#1f2225!important;
+}

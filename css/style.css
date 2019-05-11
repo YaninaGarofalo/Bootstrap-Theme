@@ -1,0 +1,153 @@
+/* CSS Document */
+
+/*
+	Theme Name: E-learning
+	Description: E-learning - Responsive Template
+	Version: 1.0
+	Author: Yanina Garófalo
+*/
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - General & Basic Styles   */
+/*   02 - Header & Navigation      */
+/*   03 - Slider                   */
+/*   04 - Featured Tutorials       */
+/*   05 - Download box             */
+/*   06 - Our Teachers   		   */
+/*   07 - Contact        		   */
+/*   08 - Footer         		   */
+
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Montserrat');
+
+
+/*------------------------------------------*/
+/*	     01 - General & Basic Styles
+/*------------------------------------------*/
+
+
+body{
+	font: 300 16px Montserrat,	sans-serif;
+	color: #5f6367;
+}
+
+h1,h2, h3, h4, .navbar-brand, .nav-link,.social{
+	font-family:'Cinzel Decorative', sans-serif;
+	font-weight: 400;
+}
+
+h1,h2{    
+    text-transform: capitalize;    
+       
+}
+h1{
+	margin: 1em 0;
+	text-align: center;
+	line-height: 2em;
+	border-bottom-style: solid;
+    border-bottom-width: 1px; 
+}
+
+.image-frame{
+	padding: 5px;
+	border:1px solid #eee;
+}
+.social a{color: #5f6367; font-size: 1.5em;}
+.container{
+	padding-bottom: 4em;
+}
+
+
+/*------------------------------------------*/
+/*	       02 - Header & Navigation          
+/*------------------------------------------*/
+.nav-item{text-transform: capitalize;}
+
+
+/*------------------------------------------*/
+/*	      	     03 - Slider          
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*	       04 - Featured Tutorials           
+/*------------------------------------------*/
+.featured-tutorials p, .featured-tutorials h4{padding:5px;}
+.featured-tutorials	.btn{margin:2px;margin-bottom: 15px;}
+.featured-tutorials h4{padding-top: 1rem;}
+.featured-tutorials ul{padding:5px;}
+.featured-tutorials ul li{list-style-type: none;}
+
+/*------------------------------------------*/
+/*	         05 - Download box             
+/*------------------------------------------*/
+
+.download{
+	padding: 0;
+	background-image:url(../image/background/01.jpg); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 200px;
+	color: #fff;
+}
+.download>div{
+	height: 100%;
+	width: 100%;
+	padding: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.download span{
+	color: #fff!important;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.download button{
+	color: #fff !important;
+	border-color: #fff !important;
+}
+.download p{margin: 0;}
+
+/*------------------------------------------*/
+/*	           06 - Our Teachers         
+/*------------------------------------------*/
+
+.our-teachers{background-color: #eee;}
+.our-teachers h1{
+	margin:0 0 1em 0;
+	padding:1em 0 0 0;
+}
+
+/*------------------------------------------*/
+/*	           07 - Contact         
+/*------------------------------------------*/
+.contac-fluid{
+	padding: 0;
+}
+.container-fluid>iframe{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.contact h4{text-transform: capitalize;}
+
+.contact ul li{list-style-type: none;}
+
+/*------------------------------------------*/
+/*	           08 - Footer         
+/*------------------------------------------*/
+
+footer{
+	width: 100%;
+	margin: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align:center;
+}
+footer p{margin: 0;}
